@@ -1,0 +1,15 @@
+.list{
+    margin-inline-start: 16px;
+}
+
+.list-content{
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    margin-block-start: 8px;
+    margin-block-end: 16px;
+}
+/* 
+.list-item{
+    display: inline-block; 
+} */

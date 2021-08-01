@@ -1,0 +1,66 @@
+.det-header video{
+    /* overflow:hidden; */
+    width: 100%;
+}
+
+.det-header .back-icon{
+    margin: 16px auto 8px 16px;
+    
+}
+
+.det-main{
+    margin: 16px;
+}
+
+.det-main .meta{
+    display: flex;
+    gap:16px;
+    align-items: center;
+    margin-block-start: 8px;
+    margin-block-end: 16px;
+    font: var(--body1-reg);
+    color: var(--grey);
+}
+
+.det-main .meta .coincidence{
+    color: var(--green);
+    font-weight: bold;
+}
+
+.det-main .meta .age{
+    display: block;
+    background-color: var(--grey);
+    padding: 4px;
+    color: var(--white);
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+.det-main .meta .quality{
+    border: 1px solid var(--grey);
+    color: var(--white);
+    padding:4px;
+    border-radius: 2px;
+}
+
+.det-main .actions{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.det-main .text{
+    margin-block-start: 16px;
+    margin-block-end: 24px;
+    text-align: justify;
+    font: var(--body1-reg);
+}
+
+.det-main .text .cite{
+    margin-block-start: 16px;
+    color: var(--grey);
+}
+
+.det-main .text .cite p{
+    font: var(--body2-reg);
+}

@@ -1,0 +1,58 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./detail.css";
+
+@font-face {
+    font-family: 'Netnet';
+    src: url('/fonts/AvenirNextLTPro-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Netnet';
+    src: url('/fonts/AvenirNextLTPro-Bold.otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+:root{
+    --fontBase: 'Netnet', sans-serif;
+    --headline1: bold 28px/37.35px var(--fontBase);
+    --subtitle1: bold 17.5px/23.91px var(--fontBase);
+    --body1-reg: 400 14px/24px var(--fontBase);
+    --body2-reg: 400 11.2px/15.3px var(--fontBase);
+    
+    --button: 600 11.2px/15.3px var(--fontBase);
+    --black:#000;/* rgb(15, 15, 15); */
+    --white:#FFF;
+    --red:#D22F26;
+    --grey:#686868;
+    --green:#71D074;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--black);
+    color:var(--white);
+    font-family: var(--fontBase);
+}
+
+.button-primary{
+    font:var(--button);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background: var(--white);
+    border: none;
+    border-radius: 2px;
+    padding-block: 4px;
+    cursor: pointer;
+}
