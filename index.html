@@ -20,7 +20,7 @@
   </header>
 
   <div class="featured">
-    <video loop  src="images/matrix.mp4" height="500"></video>
+    <video loop autoplay src="images/matrix.mp4" height="500"></video>
     <div class="featured-details">
       <ul class="tags">
         <li class="tag">Distópico</li>
@@ -171,3 +171,17 @@
   </footer>
 </body>
 </html>
+
+<script>
+  console.log("hola");
+  let btns = document.querySelectorAll('.list-item a');
+  let btns1 = document.getElementsByClassName('list-item');
+
+  btns.forEach(el=>{
+    el.addEventListener('click',e=>{
+      e.preventDefault();
+      window.location.href = 'detail.html';
+    }); 
+  });
+  console.log(btns);
+</script>

@@ -64,3 +64,39 @@
 .det-main .text .cite p{
     font: var(--body2-reg);
 }
+
+.btn-download{
+    font:var(--button);
+    color:var(--white);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background: var(--dark-grey);
+    border: none;
+    border-radius: 2px;
+    padding-block: 4px;
+    cursor: pointer;
+}
+
+.actions-secondary .actions-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions-secondary .actions-list a{
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.red-line{
+    background-color: var(--red);
+    width: 30%;
+    height: 4px;
+    margin-block-start: 16px;
+    margin-block-end: 8px;
+}

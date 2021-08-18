@@ -88,3 +88,8 @@
     padding-inline: 16px;
 }
 
+@media screen and (min-width:888px) {
+    .featured video{
+        width: 100%;
+    }
+}

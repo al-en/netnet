@@ -25,11 +25,13 @@
     --body1-reg: 400 14px/24px var(--fontBase);
     --body2-reg: 400 11.2px/15.3px var(--fontBase);
     
-    --button: 600 11.2px/15.3px var(--fontBase);
+    /* --button: 600 11.2px/15.3px var(--fontBase); */
+    --button: 600 14px/24px var(--fontBase);
     --black:#000;/* rgb(15, 15, 15); */
     --white:#FFF;
     --red:#D22F26;
     --grey:#686868;
+    --dark-grey:#2B2B2B;
     --green:#71D074;
 
 }
@@ -55,4 +57,8 @@ body{
     border-radius: 2px;
     padding-block: 4px;
     cursor: pointer;
+}
+
+.subtitle{
+    font: var(--subtitle1);
 }
